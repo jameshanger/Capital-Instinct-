@@ -1,4 +1,2 @@
 
-$(function(){
-    $(".twentytwenty-container").twentytwenty();
-});
+// Add interactions later if needed
