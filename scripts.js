@@ -1,2 +1,2 @@
 
-// Add interactions later if needed
+// Future enhancements: animation, scroll effects, popups
