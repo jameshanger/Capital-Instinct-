@@ -1,31 +1,55 @@
 
-body {
-    font-family: Arial, sans-serif;
+body, html {
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
-    color: #333;
+    font-family: 'Segoe UI', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #f8f9fa;
 }
-header {
+nav {
     background: #0C5C94;
     color: white;
-    text-align: center;
-    padding: 2rem 1rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem;
 }
 .logo {
-    max-width: 120px;
-    margin-bottom: 1rem;
+    height: 40px;
 }
-.insta-link {
-    display: inline-block;
+.hero {
+    background: linear-gradient(to right, #0C5C94, #1E88E5);
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+.hero-content h1 {
+    font-size: 2rem;
+}
+.cta-btn {
+    background: white;
+    color: #0C5C94;
+    padding: 0.75rem 1.5rem;
     margin-top: 1rem;
-    color: #fff;
-    text-decoration: underline;
+    display: inline-block;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
 }
-section {
-    padding: 2rem 1rem;
-    max-width: 1000px;
+.section {
+    padding: 3rem 1.5rem;
+    max-width: 900px;
     margin: auto;
+}
+.project-img {
+    max-width: 100%;
+    margin: 1rem 0;
 }
 footer {
     background: #0C5C94;
